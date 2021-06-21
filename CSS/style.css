@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 0 auto;
+    letter-spacing: 16px;
+    font-size: 25px;
+    padding: 8px;
+}
+
+h2{
+    letter-spacing: 5px;
+    font-size: 20px;
+    padding: 6px;
+}
+
+h1, h2{
+    background-color: #005677;
+    color: #c4c4c4;
+    text-transform: uppercase;
+}
+/* estilos del header */
+.header-fondo{
+    background-image: url('../img/mecatronica.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+.header-link-sobremi{
+    color: #fff;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+}
+/* Estilos del main */
+.main-container{
+    max-width: 68%;
+    margin:0 auto;
+    margin-top: 100px;
+}
+ul{
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.main-list{
+    list-style-type: disc;
+}
+
+li{
+    font-size: 20px;
+    margin-left: 56px;
+    line-height: 28px;
+}
+
+em{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span{
+    font-weight: bold;
+}
+
+.enter{
+    font-weight: normal;
+    margin-left: 100px;
+}
+
+/* estilos footer */
+footer{
+    background-color: #005677;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 100px;
+    color: #fff;
+}
+
+a,i{
+    text-decoration: none;
+    color:#fff;
+    margin-left: 8px;
+}
+
+.main-container-sobremi{
+    align-items: center;
+    max-width: 68%;
+    margin:0 auto;
+    margin-top: 100px;
+}
+
+main img{
+    width: 200px ;
+    height: 200px;
+    margin: 0 auto;
+}
